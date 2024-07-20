@@ -14,7 +14,7 @@ import Bookings from "./pages/Bookings";
 import Profile from "./pages/Profile";
 import PlacePage from "./pages/PlacePage";
 import { MyBooking } from "./pages/MyBooking";
-axios.defaults.baseURL = "https://airbnb-api-wheat.vercel.app/";
+axios.defaults.baseURL = "http://localhost:3000/";
 axios.defaults.withCredentials = true;
 function App() {
   return (
